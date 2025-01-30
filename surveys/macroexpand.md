@@ -11,7 +11,7 @@ How can one expand a macro?
 | Chez     | `expand`       | |
 | Cyclone  | ? | |
 | Gambit   | `pp`           | not exactly a macro-expander? |
-| Gauche   | `macroexpand`  | |
+| Gauche   | `macroexpand`  | has also `macroexpand-1` and `macroexpand-all` |
 | Guile    | `macroexpand`  | |
 | Kawa     | `expand`       | needed: `(require 'syntax-utils)` |
 | LIPS     | `macroexpand`  | |
@@ -20,6 +20,6 @@ How can one expand a macro?
 | Racket   | `expand` | |
 | Sagittarius | ? | |
 | Scheme 9 | `macro-expand` | |
-| STklos   | `macro-expand` | |
+| STklos   | `macro-expand` | has also `macro-expand*`|
 | Unsyntax | ? | |
 | Ypsilon  | `macro-expand` | |
