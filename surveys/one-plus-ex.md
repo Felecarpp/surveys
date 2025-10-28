@@ -6,9 +6,9 @@ This experiment finds out whether `1+x` and `1+` are valid identifiers in the Sc
 
 `1+x` is valid, `1+` is not defined, `add1` is defined:  Racket, Chicken, SISC
 
-`1+x` is valid, `1+` is defined, `add1` is not defined:  MIT, Guile, SCM, XLisp, Rep, Elk, FemtoLisp, Inlab, LIPS
+`1+x` is valid, `1+` is defined, `add1` is not defined:  MIT, Guile, SCM, XLisp, Rep, Elk, FemtoLisp, Inlab, LIPS, STklos
 
-`1+x` is valid, `1+` is not defined, `add1` is not defined:  Gauche, Gambit, Bigloo, Kawa, JScheme, STklos, Shoe, TinyScheme, Scheme 9, BDC, Schemik, Llava, Sagittarius
+`1+x` is valid, `1+` is not defined, `add1` is not defined:  Gauche, Gambit, Bigloo, Kawa, JScheme, Shoe, TinyScheme, Scheme 9, BDC, Schemik, Llava, Sagittarius
 
 `1+x` and `1+` are syntax errors, `add1` is defined:  Vicare, IronScheme, RScheme, SXM
 
